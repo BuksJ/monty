@@ -2,8 +2,8 @@
 
 /**
  * pint - prints the value at the top of the stack
- * @stack: pointer to the stack head
- * @line_number: counter of the line_number where the opcode is found
+ * @stack: double pointer to the top of the stack
+ * @line_number: counter of the current line_number where the opcode is found
  *
  * Return: no return
  */
